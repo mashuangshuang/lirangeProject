@@ -31,7 +31,7 @@ lirangeProject
 3. controller
 
 ##具体的开发##
-view  文件的书写:
-css   文件的书写
-js    文件的书写
-image 文件的书写
+1. view  文件的书写:
+2. css   文件的书写
+3. js    文件的书写
+4. image 文件的书写
