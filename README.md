@@ -26,7 +26,7 @@ lirangeProject
 
 
 ##目录说明:##
-1. js,css,image等目录下,根据项目的实际情况,可再划分;
+1. js,css,image等各个目录下,根据项目的实际情况,可再详细划分目录;
 2. view->common下的模块,是把整个网站中具有相同的部分(html+css),该模块可以根究项目实际情况进行增加;
 3. controller
 
@@ -53,7 +53,9 @@ lirangeProject
 3. node.js javascript前端服务器语言
 
 
+具体的开发过程中需要注意的问题,可以详细查看:[web开发中需要注意的问题][1]
 
+[1]: http://xmiaomiao.sinaapp.com/build/admin/write-post.php
 
 
 
