@@ -32,6 +32,21 @@ lirangeProject
 
 ##具体的开发##
 1. view  文件的书写:
-2. css   文件的书写
-3. js    文件的书写
-4. image 文件的书写
+2. css   文件的书写:
+3. js    文件的书写:
+4. image 文件的书写:
+
+##需要注意的问题##
+
+##后期不断的补充##
+1. grunt前端结构化
+2. css预编译sass
+3. node.js javascript前端服务器语言
+
+
+
+
+
+
+
+
