@@ -52,11 +52,12 @@ lirangeProject
 2. css预编译语言sass
 3. node.js javascript前端服务器语言
 
+具体的可以参考
+1. [web开发流程][1]
+2. [web开发规范][2]
 
-具体的开发过程中需要注意的问题,可以详细查看:[web开发中需要注意的问题][1]
-
-[1]: http://xmiaomiao.sinaapp.com/build/admin/write-post.php
-
+[1]: http://xmiaomiao.sinaapp.com/build/index.php/archives/156/
+[2]: http://xmiaomiao.sinaapp.com/build/index.php/archives/123/
 
 
 
