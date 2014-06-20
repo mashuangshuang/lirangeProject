@@ -1,0 +1,146 @@
+/*! 0619grunt 2014-06-20 */
+
+@charset "UTF-8";
+/*
+	desciption:
+	sy:
+	pc
+	time:
+	
+*/
+body, h1, h2, h3, h4, h5, h6, p, hr, blockquote,
+ul, li, dl, dt, dd,
+pre,
+form, fieldset, lengend, button, input, textarea,
+td, tr {
+  margin: 0px;
+  padding: 0px; }
+
+/*表格元素在ie7 */
+body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  font-size: 100%; }
+
+/* 设置默认字体 font-size:100%,font-size:62.5%*/
+/* 用 ascii 字符表示，使得在任何编码下都无问题 */
+body, button, input, select, textarea {
+  /* for ie */
+  font-family: "Helvetica Neue", Helvetica, STHeiTi, sans-serif; }
+
+/*重置h1-h6文字大小 都是以$font-size为基准*/
+h1 {
+  font-size: 22px; }
+
+h2 {
+  font-size: 20px; }
+
+h3 {
+  font-size: 18px; }
+
+h4 {
+  font-size: 16px; }
+
+h5 {
+  font-size: 14px; }
+
+h6 {
+  font-size: 14px; }
+
+/* 将斜体扶正 */
+address, cite, dfn, em, var {
+  font-style: normal; }
+
+/* 统一等宽字体 */
+code, kbd, pre, samp, tt {
+  font-family: "Courier New", Courier, monospace; }
+
+/* 小于 12px 的中文很难阅读，让 small 正常化 */
+small {
+  font-size: 12px; }
+
+/*重置ul,li,ol样式列表元素*/
+ul, li {
+  list-style: none; }
+
+/*重置文本格式*/
+a {
+  text-decoration: none;
+  cursor: pointer; }
+
+a:hover {
+  text-decoration: underline; }
+
+/* 重置表单元素 */
+legend {
+  color: #000; }
+
+/* for ie6 */
+fieldset, img {
+  border: none;
+  outline: none; }
+
+/* img 搭车：让链接里的 img 无边框,ie下无蓝色的 */
+/* 注：optgroup 无法扶正 */
+button, input, select, textarea {
+  font-size: 100%;
+  /* 使得表单元素在 ie 下能继承字体大小 */
+  outline: none;
+  /* ie下蓝色阴影*/
+  outline: 0; }
+
+/*重置表格元素*/
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/*重置hr*/
+hr {
+  border: none;
+  height: 1px; }
+
+/* 让非ie浏览器默认也显示垂直滚动条，防止因滚动条引起的闪烁 */
+html {
+  overflow-y: scroll; }
+
+/*重置q,blockquote前后的引号*/
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+/*移动端相关的*/
+/* 禁止选中文本（如无文本选中需求，此为必选项） */
+html, body {
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-user-drag: none; }
+
+/**/
+body {
+  -webkit-overflow-scrolling: touch; }
+
+/*click会出现绑定点击区域闪一下*/
+*, ::after, ::before {
+  -webkit-tap-highlight-color: transparent; }
+
+/*阻止旋转屏幕时自动调整字体大小*/
+html, body, form, fieldset, p, div, h1, h2, h3, h4, h5, h6 {
+  -webkit-text-size-adjust: none; }
+
+/* 禁止长按链接与图片弹出菜单 */
+a, img {
+  -webkit-touch-callout: none; }
+
+/*img,video可缩放*/
+img, video {
+  max-width: 100%;
+  height: auto; }
+
+/*重置表单样式*/
+input,textarea {
+  -webkit-appearance: none; }
